@@ -312,10 +312,10 @@ function makeTimer() {
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
 
-		$("#days").html(days + "<span>Days</span>");
-		$("#hours").html(hours + "<span>Hours</span>");
-		$("#minutes").html(minutes + "<span>Minutes</span>");
-		$("#seconds").html(seconds + "<span>Seconds</span>");		
+		$("#days").html(days + "<span style='color:white'>Days</span>");
+		$("#hours").html(hours + "<span style='color:white'>Hours</span>");
+		$("#minutes").html(minutes + "<span style='color:white'>Minutes</span>");
+		$("#seconds").html(seconds + "<span style='color:white'>Seconds</span>");		
 
 }
 
